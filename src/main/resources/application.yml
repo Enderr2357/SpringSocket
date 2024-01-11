@@ -1,0 +1,19 @@
+server:
+  port: 8080
+
+spring:
+  security:
+    user:
+      name: user
+      password: 123
+  datasource: # ????????
+    driver-class-name: com.mysql.cj.jdbc.Driver       # mysql ??
+    url: jdbc:mysql://127.0.0.1:3306/shop_online?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&serverTimezone=GMT%2B8 # ?8?
+    username: root
+    password: wwasd123
+## mybatis-plus ??
+#mybatis-plus:
+#  # ???????
+#  typeAliasesPackage: com.example.domain
+#  # ??mapper?????????mapper.xml????
+#  mapperLocations: classpath*:mapper/**/*Mapper.xml
